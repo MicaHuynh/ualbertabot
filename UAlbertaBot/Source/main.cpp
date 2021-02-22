@@ -104,7 +104,7 @@ int main(int argc, char * argv[])
 			if (BWAPI::Broodwar->isInGame())
 			{
 				std::cout << "Playing game " << gameCount++ << " on map " << BWAPI::Broodwar->mapFileName() << "\n";
-				std::cout << "mica";
+				std::cout << "mica 1 2 3 4";
 				UAlbertaBot_PlayGame();
 			}
 		}
